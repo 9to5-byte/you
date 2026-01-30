@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[COMPANY_NAME] - [TAGLINE]. [SHORT_DESCRIPTION]">
+    <meta name="keywords" content="[KEYWORD1], [KEYWORD2], [KEYWORD3], [KEYWORD4], Estonia">
+    <meta name="author" content="[COMPANY_NAME]">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="[COMPANY_NAME] - [TAGLINE]">
+    <meta property="og:description" content="[SHORT_DESCRIPTION]">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://[DOMAIN]">
+    <meta property="og:type" content="website">
+
+    <title>[COMPANY_NAME] - [TAGLINE]</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">
+                    <span class="logo-text">[COMPANY_NAME]</span>
+                </a>
+
+                <nav class="nav" id="nav" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#products" class="nav-link">[PRODUCTS_NAV]</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <a href="tel:[PHONE_LINK]" class="header-cta">
+                    <span class="phone-icon">&#9742;</span>
+                    [PHONE_DISPLAY]
+                </a>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">[HERO_HEADLINE]</h1>
+                    <p class="hero-subtitle">[HERO_SUBHEADLINE]</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                        <a href="#products" class="btn btn-secondary">View Our [PRODUCTS_NAME]</a>
+                    </div>
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <span class="badge-number">[YEARS]+</span>
+                            <span class="badge-text">Years Experience</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-number">[STAT_NUMBER]+</span>
+                            <span class="badge-text">[STAT_LABEL]</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-number">[RATING]</span>
+                            <span class="badge-text">Star Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Indicators -->
+        <section class="trust-bar">
+            <div class="container">
+                <div class="trust-items">
+                    <div class="trust-item">
+                        <span class="trust-icon">&#10003;</span>
+                        <span>[TRUST_1]</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">&#10003;</span>
+                        <span>[TRUST_2]</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">&#10003;</span>
+                        <span>[TRUST_3]</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">&#10003;</span>
+                        <span>[TRUST_4]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="images/about-image.jpg" alt="[COMPANY_NAME] team" loading="lazy">
+                    </div>
+                    <div class="about-content">
+                        <span class="section-label">About Us</span>
+                        <h2 class="section-title">[ABOUT_HEADLINE]</h2>
+                        <p class="about-text">
+                            [ABOUT_PARAGRAPH_1]
+                        </p>
+                        <p class="about-text">
+                            [ABOUT_PARAGRAPH_2]
+                        </p>
+                        <ul class="about-features">
+                            <li>[ABOUT_FEATURE_1]</li>
+                            <li>[ABOUT_FEATURE_2]</li>
+                            <li>[ABOUT_FEATURE_3]</li>
+                            <li>[ABOUT_FEATURE_4]</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Our [PRODUCTS_NAME]</span>
+                    <h2 class="section-title">[PRODUCTS_HEADLINE]</h2>
+                    <p class="section-description">[PRODUCTS_DESCRIPTION]</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/product-1.jpg" alt="[PRODUCT_1_NAME]" loading="lazy">
+                            <span class="product-badge">[PRODUCT_1_BADGE]</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">[PRODUCT_1_NAME]</h3>
+                            <p class="product-description">[PRODUCT_1_DESCRIPTION]</p>
+                            <div class="product-price">
+                                <span class="price">From [PRODUCT_1_PRICE]</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline">Get Quote</a>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 2 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/product-2.jpg" alt="[PRODUCT_2_NAME]" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">[PRODUCT_2_NAME]</h3>
+                            <p class="product-description">[PRODUCT_2_DESCRIPTION]</p>
+                            <div class="product-price">
+                                <span class="price">From [PRODUCT_2_PRICE]</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline">Get Quote</a>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 3 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/product-3.jpg" alt="[PRODUCT_3_NAME]" loading="lazy">
+                            <span class="product-badge">[PRODUCT_3_BADGE]</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">[PRODUCT_3_NAME]</h3>
+                            <p class="product-description">[PRODUCT_3_DESCRIPTION]</p>
+                            <div class="product-price">
+                                <span class="price">From [PRODUCT_3_PRICE]</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline">Get Quote</a>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 4 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/product-4.jpg" alt="[PRODUCT_4_NAME]" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">[PRODUCT_4_NAME]</h3>
+                            <p class="product-description">[PRODUCT_4_DESCRIPTION]</p>
+                            <div class="product-price">
+                                <span class="price">From [PRODUCT_4_PRICE]</span>
+                            </div>
+                            <a href="#contact" class="btn btn-outline">Get Quote</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Our Services</span>
+                    <h2 class="section-title">[SERVICES_HEADLINE]</h2>
+                    <p class="section-description">[SERVICES_DESCRIPTION]</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">&#128269;</div>
+                        <h3 class="service-title">[SERVICE_1_NAME]</h3>
+                        <p class="service-description">[SERVICE_1_DESCRIPTION]</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128393;</div>
+                        <h3 class="service-title">[SERVICE_2_NAME]</h3>
+                        <p class="service-description">[SERVICE_2_DESCRIPTION]</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128295;</div>
+                        <h3 class="service-title">[SERVICE_3_NAME]</h3>
+                        <p class="service-description">[SERVICE_3_DESCRIPTION]</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">&#128736;</div>
+                        <h3 class="service-title">[SERVICE_4_NAME]</h3>
+                        <p class="service-description">[SERVICE_4_DESCRIPTION]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-us">
+            <div class="container">
+                <div class="why-us-grid">
+                    <div class="why-us-content">
+                        <span class="section-label">Why Choose Us</span>
+                        <h2 class="section-title">[WHY_US_HEADLINE]</h2>
+                        <div class="why-us-items">
+                            <div class="why-us-item">
+                                <div class="why-us-number">01</div>
+                                <div class="why-us-text">
+                                    <h4>[WHY_1_TITLE]</h4>
+                                    <p>[WHY_1_DESCRIPTION]</p>
+                                </div>
+                            </div>
+                            <div class="why-us-item">
+                                <div class="why-us-number">02</div>
+                                <div class="why-us-text">
+                                    <h4>[WHY_2_TITLE]</h4>
+                                    <p>[WHY_2_DESCRIPTION]</p>
+                                </div>
+                            </div>
+                            <div class="why-us-item">
+                                <div class="why-us-number">03</div>
+                                <div class="why-us-text">
+                                    <h4>[WHY_3_TITLE]</h4>
+                                    <p>[WHY_3_DESCRIPTION]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-us-image">
+                        <img src="images/why-us.jpg" alt="[COMPANY_NAME] quality" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Testimonials</span>
+                    <h2 class="section-title">What Our Customers Say</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="testimonial-text">
+                            "[TESTIMONIAL_1_TEXT]"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.jpg" alt="[TESTIMONIAL_1_NAME]" loading="lazy">
+                            <div class="author-info">
+                                <cite class="author-name">[TESTIMONIAL_1_NAME]</cite>
+                                <span class="author-location">[TESTIMONIAL_1_LOCATION]</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="testimonial-text">
+                            "[TESTIMONIAL_2_TEXT]"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.jpg" alt="[TESTIMONIAL_2_NAME]" loading="lazy">
+                            <div class="author-info">
+                                <cite class="author-name">[TESTIMONIAL_2_NAME]</cite>
+                                <span class="author-location">[TESTIMONIAL_2_LOCATION]</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="testimonial-text">
+                            "[TESTIMONIAL_3_TEXT]"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.jpg" alt="[TESTIMONIAL_3_NAME]" loading="lazy">
+                            <div class="author-info">
+                                <cite class="author-name">[TESTIMONIAL_3_NAME]</cite>
+                                <span class="author-location">[TESTIMONIAL_3_LOCATION]</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>[CTA_HEADLINE]</h2>
+                    <p>[CTA_SUBTEXT]</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-white">Request Free Quote</a>
+                        <a href="tel:[PHONE_LINK]" class="btn btn-outline-white">Call: [PHONE_DISPLAY]</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-label">Contact Us</span>
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="contact-description">[CONTACT_DESCRIPTION]</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">&#128205;</span>
+                                <div>
+                                    <h4>Address</h4>
+                                    <address>
+                                        [STREET_ADDRESS]<br>
+                                        [CITY], [POSTAL_CODE] [COUNTRY]
+                                    </address>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">&#9742;</span>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:[PHONE_LINK]">[PHONE_DISPLAY]</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">&#9993;</span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:[EMAIL]">[EMAIL]</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <span class="contact-icon">&#128337;</span>
+                                <div>
+                                    <h4>Business Hours</h4>
+                                    <p>[BUSINESS_HOURS_1]<br>[BUSINESS_HOURS_2]</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="[FACEBOOK_URL]" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+                            <a href="[INSTAGRAM_URL]" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+                            <a href="[LINKEDIN_URL]" aria-label="LinkedIn" target="_blank" rel="noopener">LI</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contact-form" action="#" method="POST">
+                            <h3>Request a Free Quote</h3>
+
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required autocomplete="name">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required autocomplete="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone *</label>
+                                    <input type="tel" id="phone" name="phone" required autocomplete="tel">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">[PRODUCT_TYPE] Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a [PRODUCT_TYPE_LOWERCASE]...</option>
+                                    <option value="option-1">[FORM_OPTION_1]</option>
+                                    <option value="option-2">[FORM_OPTION_2]</option>
+                                    <option value="option-3">[FORM_OPTION_3]</option>
+                                    <option value="option-4">[FORM_OPTION_4]</option>
+                                    <option value="other">Other / Not Sure</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="[FORM_PLACEHOLDER]"></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label for="consent">I agree to the <a href="privacy.html">Privacy Policy</a> and consent to being contacted. *</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+
+                            <p class="form-note">* Required fields. We'll respond within 24 hours.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map">
+            <div class="map-container">
+                <!-- Replace with your Google Maps embed URL -->
+                <iframe
+                    src="[GOOGLE_MAPS_EMBED_URL]"
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="[COMPANY_NAME] Location">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-text">[COMPANY_NAME]</span>
+                    </a>
+                    <p>[FOOTER_DESCRIPTION]</p>
+                    <div class="footer-social">
+                        <a href="[FACEBOOK_URL]" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+                        <a href="[INSTAGRAM_URL]" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+                        <a href="[LINKEDIN_URL]" aria-label="LinkedIn" target="_blank" rel="noopener">LI</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Our [PRODUCTS_NAME]</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Our [PRODUCTS_NAME]</h4>
+                    <ul>
+                        <li><a href="#products">[PRODUCT_1_NAME]</a></li>
+                        <li><a href="#products">[PRODUCT_2_NAME]</a></li>
+                        <li><a href="#products">[PRODUCT_3_NAME]</a></li>
+                        <li><a href="#products">[PRODUCT_4_NAME]</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p>[STREET_ADDRESS]</p>
+                        <p>[CITY], [POSTAL_CODE] [COUNTRY]</p>
+                        <p><a href="tel:[PHONE_LINK]">[PHONE_DISPLAY]</a></p>
+                        <p><a href="mailto:[EMAIL]">[EMAIL]</a></p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; <span id="year"></span> [LEGAL_NAME]. All rights reserved.</p>
+                    <p>Reg. nr: [REGISTRATION_NUMBER]</p>
+                </div>
+                <div class="footer-legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="accessibility.html">Accessibility</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. By continuing to use this site, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn-small" id="accept-cookies">Accept</button>
+                <button class="btn btn-small btn-outline" id="decline-cookies">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

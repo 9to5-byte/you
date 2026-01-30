@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /B \"C:\\\\code\\\\you\\\\website-template\")",
+      "Bash(python -m http.server:*)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:xn--koduvrav-4za.ee)",
+      "WebFetch(domain:hansadoor.ee)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 1; \\(Invoke-WebRequest -Uri ''http://127.0.0.1:8080'' -UseBasicParsing -TimeoutSec 5\\).StatusCode\")",
+      "Bash(ls:*)",
+      "WebSearch",
+      "WebFetch(domain:varustaja24.ee)",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(git init:*)",
+      "Bash(gh auth status:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

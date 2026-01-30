@@ -1,0 +1,76 @@
+================================================================================
+                         IMAGES NEEDED FOR THIS TEMPLATE
+================================================================================
+
+Add the following images to this folder:
+
+REQUIRED IMAGES:
+--------------------------------------------------------------------------------
+
+hero-bg.jpg
+  - Hero section background
+  - Recommended size: 1920x1080 pixels
+  - Should represent your business/industry
+  - Will have a color overlay, so can be darker
+
+about-image.jpg
+  - About section image
+  - Recommended size: 800x600 pixels
+  - Could be: team photo, workshop, storefront
+
+why-us.jpg
+  - Why choose us section image
+  - Recommended size: 800x600 pixels
+  - Could be: craftsman at work, quality product close-up
+
+product-1.jpg, product-2.jpg, product-3.jpg, product-4.jpg
+  - Product/service images
+  - Recommended size: 600x450 pixels (4:3 ratio)
+  - Clear, well-lit photos of your products
+
+testimonial-1.jpg, testimonial-2.jpg, testimonial-3.jpg
+  - Customer photos
+  - Recommended size: 100x100 pixels (square)
+  - Headshots or profile-style photos
+  - Can use placeholder images if no real photos available
+
+og-image.jpg
+  - Social media preview image
+  - Recommended size: 1200x630 pixels
+  - Shown when sharing website on Facebook, LinkedIn, etc.
+  - Should include logo and tagline
+
+favicon.ico
+  - Browser tab icon
+  - Size: 32x32 or 16x16 pixels
+  - Usually your logo simplified
+
+
+IMAGE OPTIMIZATION TIPS:
+--------------------------------------------------------------------------------
+
+1. Compress images before adding
+   - Use tools like TinyPNG, ImageOptim, or Squoosh
+   - Aim for under 200KB per image
+
+2. Use appropriate formats
+   - JPG for photos
+   - PNG for graphics with transparency
+   - WebP for better compression (modern browsers)
+
+3. Consider responsive images
+   - Create multiple sizes for different screen sizes
+   - Use srcset attribute for responsive loading
+
+
+FREE STOCK IMAGE SOURCES:
+--------------------------------------------------------------------------------
+
+If you need stock photos, try these free resources:
+- Unsplash (unsplash.com)
+- Pexels (pexels.com)
+- Pixabay (pixabay.com)
+
+Make sure to check licensing for commercial use.
+
+================================================================================

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitemap for KoduVärav - Navigate to all pages on our garden gates website.">
+    <meta name="robots" content="noindex, follow">
+    <title>Sitemap - KoduVärav</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal-page { padding: 120px 0 80px; }
+        .legal-content { max-width: 800px; margin: 0 auto; }
+        .legal-content h1 { margin-bottom: 1rem; }
+        .legal-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem; }
+        .legal-content p, .legal-content li { color: var(--color-gray-600); margin-bottom: 0.5rem; }
+        .legal-content ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .legal-content ul li { list-style: disc; }
+        .legal-content a { color: var(--color-primary); }
+        .legal-content a:hover { color: var(--color-primary-dark); }
+        .sitemap-section { margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">KoduVärav</span>
+                </a>
+                <nav class="nav" id="nav" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="index.html#about" class="nav-link">About</a></li>
+                        <li><a href="index.html#products" class="nav-link">Gates</a></li>
+                        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="legal-page">
+        <div class="container">
+            <div class="legal-content">
+                <h1>Sitemap</h1>
+                <p>Use this sitemap to navigate to all pages on the KoduVärav website.</p>
+
+                <div class="sitemap-section">
+                    <h2>Main Pages</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a> - Welcome to KoduVärav</li>
+                        <li><a href="index.html#about">About Us</a> - Learn about our company</li>
+                        <li><a href="index.html#products">Our Gates</a> - Browse our gate products</li>
+                        <li><a href="index.html#services">Services</a> - Our installation and maintenance services</li>
+                        <li><a href="index.html#testimonials">Reviews</a> - Customer testimonials</li>
+                        <li><a href="index.html#contact">Contact</a> - Get in touch with us</li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h2>Products</h2>
+                    <ul>
+                        <li><a href="index.html#products">Swing Gates</a> - Classic hinged gates</li>
+                        <li><a href="index.html#products">Sliding Gates</a> - Space-saving sliding solutions</li>
+                        <li><a href="index.html#products">Automatic Gates</a> - Motorized gate systems</li>
+                        <li><a href="index.html#products">Pedestrian Gates</a> - Walk-through entry gates</li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a href="index.html#services">Free Site Survey</a> - On-site consultation</li>
+                        <li><a href="index.html#services">Custom Design</a> - Bespoke gate design</li>
+                        <li><a href="index.html#services">Professional Installation</a> - Expert fitting</li>
+                        <li><a href="index.html#services">Maintenance & Repair</a> - Ongoing support</li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h2>Legal & Information</h2>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a> - How we handle your data</li>
+                        <li><a href="terms.html">Terms of Service</a> - Terms and conditions</li>
+                        <li><a href="accessibility.html">Accessibility</a> - Our accessibility commitment</li>
+                        <li><a href="sitemap.html">Sitemap</a> - This page</li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-section">
+                    <h2>Contact Information</h2>
+                    <p><strong>KoduVärav OÜ</strong></p>
+                    <p>Väike-Paala 1, Tallinn, 11415 Estonia</p>
+                    <p>Phone: <a href="tel:+372-5XX-XXXX">+372 5XX XXXX</a></p>
+                    <p>Email: <a href="mailto:info@koduvarav.ee">info@koduvarav.ee</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <div class="footer-legal">
+                    <p>&copy; <span id="year"></span> KoduVärav OÜ. All rights reserved.</p>
+                </div>
+                <div class="footer-legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="index.html">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile menu
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const nav = document.getElementById('nav');
+        if (mobileMenuBtn && nav) {
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>
