@@ -1,0 +1,59 @@
+WORKFORCE - IMAGES NEEDED
+==========================
+
+Please add the following images to complete the website:
+
+1. hero-bg.jpg (1920x1080 or larger)
+   - Construction site image showing workers in action
+   - Could show carpenters, builders, or general construction work
+   - Perth/Australian construction context preferred
+
+2. about-image.jpg (800x600)
+   - Team photo or workers on a construction site
+   - Professional look, workers wearing PPE/high-vis
+
+3. product-1.jpg (600x450) - Carpenters
+   - Carpenter at work with tools
+   - Framing, fit-out, or finishing work
+
+4. product-2.jpg (600x450) - General Labourers
+   - Labourers on a construction site
+   - Material handling, site work
+
+5. product-3.jpg (600x450) - Concreters
+   - Concrete pouring or finishing
+   - Workers smoothing concrete
+
+6. product-4.jpg (600x450) - Steel Fixers
+   - Rebar/reinforcement work
+   - Workers tying steel
+
+7. why-us.jpg (800x600)
+   - Professional construction team
+   - Workers in PPE showing quality workmanship
+
+8. testimonial-1.jpg (100x100)
+   - Professional headshot placeholder
+   - Male construction industry professional
+
+9. testimonial-2.jpg (100x100)
+   - Professional headshot placeholder
+   - Female construction industry professional
+
+10. testimonial-3.jpg (100x100)
+    - Professional headshot placeholder
+    - Male construction industry professional
+
+11. favicon.ico (32x32)
+    - Small "W" logo or hard hat icon
+    - Orange/construction themed
+
+12. og-image.jpg (1200x630)
+    - Social media sharing image
+    - "Workforce - Perth Construction Labour Hire" branding
+
+NOTES:
+- All worker images should show proper PPE (hard hats, high-vis, safety boots)
+- Australian/Perth construction context preferred
+- Diverse workforce representation encouraged
+- Professional, high-quality images
