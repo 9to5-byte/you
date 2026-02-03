@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
 
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
+        contactForm.addEventListener('submit', async function(e) {
             e.preventDefault();
 
             // Basic form validation
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
             // Phone validation regex (basic)
-            const phoneRegex = /^[\d\s\-\+\(\)]{10,}$/;
+            const phoneRegex = /^[\d\s\-\+\(\)]{7,}$/;
 
             // Validation checks
             if (!name) {
@@ -155,16 +155,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            // If validation passes, submit the form
-            // Replace this with your actual form submission logic
-            // Options: FormSpree, Netlify Forms, custom backend, etc.
+            // Submit to Formspree
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
 
-            // Example: Show success message
-            showFormSuccess('Thank you for your message! We will get back to you shortly.');
-            contactForm.reset();
+            try {
+                const response = await fetch(this.action, {
+                    method: 'POST',
+                    body: new FormData(this),
+                    headers: { 'Accept': 'application/json' }
+                });
 
-            // Example: Send to FormSpree (uncomment and add your FormSpree URL)
-            // submitToFormSpree(this);
+                if (response.ok) {
+                    showFormSuccess('Thank you for your message! We will get back to you within 24 hours.');
+                    contactForm.reset();
+                } else {
+                    showFormError('Something went wrong. Please try again or email us directly.');
+                }
+            } catch (error) {
+                showFormError('Network error. Please check your connection and try again.');
+            }
+
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
         });
     }
 
